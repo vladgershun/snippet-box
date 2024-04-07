@@ -1,2 +1,2 @@
 run:
-	@go run ./cmd/web -addr=":4000"
+	@go run ./cmd/web -port=":4000"
