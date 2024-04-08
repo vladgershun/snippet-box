@@ -17,7 +17,6 @@ type application struct {
 }
 
 func main() {
-
 	port := flag.String("port", ":2020", "HTTP network address")
 	dsn := flag.String("dsn", "web:password@/snippetbox?parseTime=true", "MySQL data source name")
 	flag.Parse()
