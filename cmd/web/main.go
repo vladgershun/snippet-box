@@ -9,8 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/alexedwards/scs/stores/mysqlstore"
+	"github.com/alexedwards/scs/mysqlstore"
 	"github.com/alexedwards/scs/v2"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/vladgershun/snippet-box/internal/models"
 )
